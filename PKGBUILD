@@ -1,5 +1,4 @@
-# Maintainer: Sven-Hendrik Haase <svenstaro@archlinux.org>
-# Contributor: hexchain <i@hexchain.org>
+# https://gitlab.archlinux.org/archlinux/packaging/packages/telegram-desktop/-/blob/main/PKGBUILD
 pkgname=telegram-desktop
 pkgver=5.0.4
 pkgrel=2
