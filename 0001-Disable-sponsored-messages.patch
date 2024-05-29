@@ -1,8 +1,7 @@
-diff --git a/Telegram/SourceFiles/data/data_sponsored_messages.cpp b/Telegram/SourceFiles/data/data_sponsored_messages.cpp
-index fa21af4..211f3bf 100644
---- a/Telegram/SourceFiles/data/data_sponsored_messages.cpp
-+++ b/Telegram/SourceFiles/data/data_sponsored_messages.cpp
-@@ -175,7 +175,7 @@ void SponsoredMessages::inject(
+diff --unified --recursive --text orig/Telegram/SourceFiles/data/components/sponsored_messages.cpp new/Telegram/SourceFiles/data/components/sponsored_messages.cpp
+--- orig/Telegram/SourceFiles/data/components/sponsored_messages.cpp	2024-05-28 19:32:48.000000000 +0300
++++ new/Telegram/SourceFiles/data/components/sponsored_messages.cpp	2024-05-29 13:51:41.810417291 +0300
+@@ -193,7 +193,7 @@
  }
  
  bool SponsoredMessages::canHaveFor(not_null<History*> history) const {
