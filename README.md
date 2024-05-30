@@ -2,6 +2,8 @@
 
 Patches disabling some anti-features of [Telegram Desktop](https://desktop.telegram.org/).
 
+<br>Also check out releases https://github.com/olodar/telegram-desktop-patches/releases because compilation requires about 32GiB RAM.
+
 ## Installation
 
 ### Arch Linux
