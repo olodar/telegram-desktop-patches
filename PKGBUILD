@@ -1,6 +1,6 @@
 # https://gitlab.archlinux.org/archlinux/packaging/packages/telegram-desktop/-/blob/main/PKGBUILD
 pkgname=telegram-desktop-patched
-pkgver=5.0.4
+pkgver=5.1.0
 pkgrel=2
 pkgdesc='Telegram Desktop client with some anti-features (sponsored messages, saving restrictions and other) disabled.'
 arch=('x86_64')
@@ -15,14 +15,14 @@ makedepends=('cmake' 'git' 'ninja' 'python' 'range-v3' 'tl-expected' 'microsoft-
              'gobject-introspection' 'boost' 'fmt' 'mm-common' 'perl-xml-parser' 'python-packaging')
 optdepends=('webkit2gtk: embedded browser features'
             'xdg-desktop-portal: desktop integration')
-conflicts=("telegram-desktop")
+conflicts=('telegram-desktop')
 source=("https://github.com/telegramdesktop/tdesktop/releases/download/v${pkgver}/tdesktop-${pkgver}-full.tar.gz"
         "0001-Disable-sponsored-messages.patch"
         "0002-Disable-saving-restrictions.patch"
         "0003-Disable-invite-peeking-restrictions.patch"
         "0004-Disable-accounts-limit.patch")
 
-sha512sums=('611bad9f174a35c27ffc55efe3544318f992af25a89364c3b64fa1afb4765ebf7aae7d4a83539d9e0038fe4ca8e637bdb5d453f058e64dffc2c45edf2f348dbb'
+sha512sums=('bbb4ee926f24735ffb73a19cd45fd76c697d50bab8f95e2f33ad772ff96c8f2bd22406c1e57a571c471318f7c6cdd3b1e92c4c80943fc2c15a71d68116848906'
 '643de210f33e1759bf31fc1b39d9681757419e05017d6c5ae3147d7c25f232d062737120ab694ac4dd34c3aa35a9110e74883c8b58d8aeee6a6b52721afb201a'
 "4072e1c304fbb699d0d0cc42070480a3ac5580ba57bbc9b66debc030b04724fe5e7d02105c8ab270de2c4d3c58c1890040a03fe42cd329c934cfb087c1fab360"
 "2c19b303ce77aa5b92dcbc46e61c0f45a5eb5fdb8810bd5f86a5d51acc4a79d6c41742d5197a0d72a6224e5f26855ab74ed35b5d085e8ba713cc9c87d8f54897"
